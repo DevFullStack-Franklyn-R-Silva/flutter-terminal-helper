@@ -37,20 +37,61 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "flutter-helper",
+          "title": "Flutter Helper",
+          "icon": "$(rocket)"
+        }
+      ]
+    },
+    "views": {
+      "flutter-helper": [
+        {
+          "id": "flutterCommands",
+          "name": "Flutter Commands",
+          "icon": "$(terminal)",
+          "contextualTitle": "Flutter Helper"
+        }
+      ]
+    },
     "commands": [
       {
         "command": "flutterHelper.openTerminal",
-        "title": "Flutter Helper: Open Custom Terminal"
+        "title": "Flutter Helper: Open Custom Terminal",
+        "icon": "$(terminal)"
       },
       {
         "command": "flutterHelper.insertCommand",
-        "title": "Flutter Helper: Insert Command in Terminal"
+        "title": "Flutter Helper: Insert Command in Terminal",
+        "icon": "$(add)"
       },
       {
         "command": "flutterHelper.showCommands",
-        "title": "Flutter Helper: Show Commands (Ctrl+Space)"
+        "title": "Flutter Helper: Show Commands (Ctrl+Space)",
+        "icon": "$(list-unordered)"
+      },
+      {
+        "command": "flutterHelper.executeFromTree",
+        "title": "Execute Command",
+        "icon": "$(play)"
+      },
+      {
+        "command": "flutterHelper.refreshCommands",
+        "title": "Refresh Commands",
+        "icon": "$(refresh)"
       }
     ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "flutterHelper.refreshCommands",
+          "when": "view == flutterCommands",
+          "group": "navigation"
+        }
+      ]
+    },
     "keybindings": [
       {
         "command": "flutterHelper.showCommands",
