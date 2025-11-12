@@ -5,43 +5,34 @@
 ![Flutter](https://img.shields.io/badge/Flutter-CLI-02569B)
 ![VSCode](https://img.shields.io/badge/VSCode-1.80+-blue)
 
-> 🚀 Boost your Flutter development productivity with intelligent command suggestions!
+> 🚀 Quick access to 100+ Flutter and Dart CLI commands via sidebar!
 
-A powerful VSCode extension that provides intelligent autocomplete and quick suggestions for 100+ Flutter and Dart CLI commands, directly in your terminal and shell files.
+A VSCode extension that provides a convenient TreeView sidebar with categorized Flutter and Dart CLI commands. Click any command to paste it directly into your active terminal.
 
 ## ✨ Features
 
-### 🎯 **Terminal Autocomplete (Ctrl+Space)**
+### 📂 **TreeView Sidebar**
 
-Press `Ctrl+Space` (or `Cmd+Space` on Mac) in any terminal to get instant, searchable Flutter command suggestions.
+Access Flutter and Dart commands from a convenient sidebar panel:
 
-- ⚡ Fast and responsive
-- 🔍 Searchable command list
-- 📝 Commands are inserted (not executed) for your review
-- 💻 Works with all terminal types (PowerShell, Bash, etc.)
+- 🗂️ **Organized by Category**: Commands grouped into 10 logical categories
+- 🎯 **One-Click Paste**: Click any command to paste it into your active terminal
+- 🔍 **Easy Navigation**: Expandable/collapsible categories
+- ⚡ **No Execution**: Commands are pasted (not executed) so you can review before running
+- 🎨 **Beautiful Icons**: Category icons for easy visual identification
 
-### 📄 **Shell File Autocomplete**
+### 🎯 **Command Categories**
 
-Get automatic command suggestions while editing `.sh` or `.ps1` files:
-
-- 🎨 IntelliSense-style suggestions
-- 📋 Perfect for creating build scripts
-- 🔄 Works with both Bash and PowerShell
-
-### 🖥️ **Custom Terminal**
-
-Open a special terminal with integrated suggestions:
-
-- Command Palette → `Flutter Helper: Open Custom Terminal`
-- Type `?` for instant suggestions
-- 🎭 Interactive command selection
-
-### ⚡ **Quick Insert**
-
-Insert commands via Command Palette:
-
-- `Ctrl+Shift+P` → `Flutter Helper: Insert Command in Terminal`
-- 🚀 Fast workflow integration
+- 🧹 **Clean & Dependencies**: Manage packages and clean builds
+- �️ **Build**: Build for different platforms (Android, iOS, Web, etc.)
+- ▶️ **Run**: Run your app in different modes
+- � **Devices**: Manage devices and emulators
+- 🧪 **Test & Analyze**: Testing and code analysis tools
+- 🧰 **Configuration**: Flutter SDK configuration
+- � **Dart**: Dart-specific commands
+- 📦 **Project**: Project management and code generation
+- 🔥 **Firebase**: Firebase integration commands
+- 🔍 **Info**: Version and help information
 
 ## 📦 Installation
 
@@ -64,20 +55,20 @@ npm run compile
 
 ## 🎯 Quick Start
 
-### 1️⃣ **In Terminal**
+### 1️⃣ **Open the Sidebar**
+
+- Click the 🚀 **Flutter Helper** icon in the Activity Bar (left sidebar)
+- Or use Command Palette: `View: Show Flutter Helper`
+
+### 2️⃣ **Browse Categories**
+
+- Expand any category (e.g., "🏗️ Build")
+- See all available commands in that category
+
+### 3️⃣ **Paste a Command**
 
 ```bash
-# Open terminal (Ctrl+`)
-# Press Ctrl+Space
-# Type to filter, select command, press Enter
-flutter clean  # ← Inserted, ready to run
-```
-
-### 2️⃣ **In Shell Scripts**
-
-```bash
-# Create script.sh
-# Start typing:
+# Click on "Build APK"
 flutter  # ← Suggestions appear automatically
 ```
 

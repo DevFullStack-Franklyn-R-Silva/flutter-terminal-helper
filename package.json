@@ -58,23 +58,8 @@
     },
     "commands": [
       {
-        "command": "flutterHelper.openTerminal",
-        "title": "Flutter Helper: Open Custom Terminal",
-        "icon": "$(terminal)"
-      },
-      {
-        "command": "flutterHelper.insertCommand",
-        "title": "Flutter Helper: Insert Command in Terminal",
-        "icon": "$(add)"
-      },
-      {
-        "command": "flutterHelper.showCommands",
-        "title": "Flutter Helper: Show Commands (Ctrl+Space)",
-        "icon": "$(list-unordered)"
-      },
-      {
         "command": "flutterHelper.executeFromTree",
-        "title": "Execute Command",
+        "title": "Paste Command in Terminal",
         "icon": "$(play)"
       },
       {
@@ -91,15 +76,7 @@
           "group": "navigation"
         }
       ]
-    },
-    "keybindings": [
-      {
-        "command": "flutterHelper.showCommands",
-        "key": "ctrl+space",
-        "mac": "cmd+space",
-        "when": "terminalFocus"
-      }
-    ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",

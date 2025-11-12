@@ -7,26 +7,29 @@ All notable changes to the "Flutter Terminal Helper" extension will be documente
 ### Added
 
 - Initial release
-- Ctrl+Space autocomplete support in terminal for Flutter commands
-- Autocomplete suggestions in `.sh` and `.ps1` files
-- Custom terminal with built-in Flutter command suggestions
-- Quick pick menu to insert commands into active terminal
+- TreeView sidebar with categorized Flutter and Dart commands
+- 10 command categories for easy navigation
+- One-click command paste into active terminal
 - Support for 100+ Flutter and Dart CLI commands
-- Commands include:
-  - Build commands (APK, iOS, Web, etc.)
-  - Run commands with different configurations
-  - Testing and analysis tools
-  - Pub dependency management
-  - Device and emulator management
-  - Firebase integration commands
-  - Code generation tools
+- Commands organized by category:
+  - 🧹 Clean & Dependencies
+  - 🏗️ Build
+  - ▶️ Run
+  - 📱 Devices
+  - 🧪 Test & Analyze
+  - 🧰 Configuration
+  - 🎯 Dart
+  - 📦 Project
+  - 🔥 Firebase
+  - 🔍 Info
 
 ### Features
 
-- **Terminal Integration**: Press `Ctrl+Space` in any terminal to get Flutter command suggestions
-- **File Autocomplete**: Get suggestions while editing shell scripts
-- **Custom Terminal**: Special terminal with `?` trigger for suggestions
-- **Command Palette**: Access commands via `Ctrl+Shift+P`
+- **TreeView Sidebar**: Browse commands organized by category
+- **One-Click Paste**: Click any command to paste it into your terminal
+- **No Auto-Execution**: Commands are pasted (not executed) for your review
+- **Beautiful Icons**: Visual category identification
+- **Refresh Button**: Update command list anytime
 
 ### Supported Commands
 
