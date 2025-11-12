@@ -5,6 +5,7 @@ Before publishing your extension, make sure to complete these steps:
 ## 📝 Repository Setup
 
 - [ ] Replace `your-username` with your GitHub username in:
+
   - [ ] `package.json` → `repository.url`
   - [ ] `package.json` → `bugs.url`
   - [ ] `package.json` → `homepage`
@@ -12,6 +13,7 @@ Before publishing your extension, make sure to complete these steps:
   - [ ] `CONTRIBUTING.md`
 
 - [ ] Replace `your-publisher-name` in:
+
   - [ ] `package.json` → `publisher`
 
 - [ ] Update copyright year in `LICENSE` if needed
@@ -91,6 +93,7 @@ git push -u origin main
 ```
 
 - [ ] Create first release:
+
   - Go to GitHub → Releases → Create new release
   - Tag: `v0.0.1`
   - Title: `Flutter Terminal Helper v0.0.1`

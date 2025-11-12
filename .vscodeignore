@@ -1,6 +1,12 @@
 .vscode/
-out/
-dist/
+src/
+.gitignore
+.git/
+.github/
+tsconfig.json
 node_modules/
 .vscode-test/
 *.vsix
+*.md
+!README.md
+!CHANGELOG.md

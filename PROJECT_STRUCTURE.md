@@ -95,6 +95,7 @@ flutter-terminal-helper/
 ## ✅ All Files in English
 
 Every file in the project is now fully in English:
+
 - ✅ Code comments
 - ✅ Documentation
 - ✅ Issue templates
