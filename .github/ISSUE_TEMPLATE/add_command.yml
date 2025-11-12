@@ -1,0 +1,71 @@
+name: Add Flutter Command
+description: Suggest a new Flutter/Dart command to add to the suggestions
+title: "[Command]: Add "
+labels: ["enhancement", "command"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new command! This helps make the extension more complete.
+
+  - type: input
+    id: command
+    attributes:
+      label: Command
+      description: The exact command to add
+      placeholder: flutter your-command
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Command Description
+      description: What does this command do?
+      placeholder: This command does...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Command Category
+      description: Which category does this command belong to?
+      options:
+        - Cleaning and dependency management
+        - Build commands
+        - Run and execution
+        - Device and emulator management
+        - Testing, formatting, and analysis
+        - Configuration and environment
+        - Dart commands
+        - Project management
+        - Firebase and integrations
+        - Info and diagnostics
+        - Code generation and cleanup
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: usage
+    attributes:
+      label: Usage Example
+      description: Provide an example of when/how this command is used
+      placeholder: This is useful when...
+
+  - type: input
+    id: documentation
+    attributes:
+      label: Documentation Link
+      description: Link to official documentation (if available)
+      placeholder: https://docs.flutter.dev/...
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      description: Would you like to submit a PR to add this command?
+      options:
+        - label: I can submit a PR to add this command
+          required: false

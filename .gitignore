@@ -1,0 +1,21 @@
+# Compiled files
+out/
+dist/
+node_modules/
+
+# Test files
+.vscode-test/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.vsix
+*.swp
+*.swo
+*~

@@ -1,0 +1,73 @@
+{
+  "name": "flutter-terminal-helper",
+  "displayName": "Flutter Terminal Helper",
+  "description": "Flutter and Dart CLI command suggestions with Ctrl+Space support in terminal and shell files",
+  "version": "0.0.1",
+  "publisher": "your-publisher-name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/flutter-terminal-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/flutter-terminal-helper/issues"
+  },
+  "homepage": "https://github.com/your-username/flutter-terminal-helper#readme",
+  "keywords": [
+    "flutter",
+    "dart",
+    "terminal",
+    "autocomplete",
+    "suggestions",
+    "cli",
+    "helper",
+    "commands",
+    "productivity"
+  ],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other",
+    "Programming Languages",
+    "Snippets"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "flutterHelper.openTerminal",
+        "title": "Flutter Helper: Open Custom Terminal"
+      },
+      {
+        "command": "flutterHelper.insertCommand",
+        "title": "Flutter Helper: Insert Command in Terminal"
+      },
+      {
+        "command": "flutterHelper.showCommands",
+        "title": "Flutter Helper: Show Commands (Ctrl+Space)"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "flutterHelper.showCommands",
+        "key": "ctrl+space",
+        "mac": "cmd+space",
+        "when": "terminalFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/vscode": "^1.105.0",
+    "typescript": "^5.9.3"
+  }
+}
