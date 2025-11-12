@@ -55,7 +55,7 @@ Insert commands via Command Palette:
 ### From Source
 
 ```bash
-git clone https://github.com/your-username/flutter-terminal-helper.git
+git clone https://github.com/DevFullStack-Franklyn-R-Silva/flutter-terminal-helper.git
 cd flutter-terminal-helper
 npm install
 npm run compile
@@ -240,9 +240,9 @@ Contributions are **welcome and appreciated**! 🎉
 
 ### Ways to Contribute
 
-- 🐛 [Report bugs](https://github.com/your-username/flutter-terminal-helper/issues)
-- 💡 [Suggest features](https://github.com/your-username/flutter-terminal-helper/issues)
-- ➕ [Add new commands](https://github.com/your-username/flutter-terminal-helper/blob/main/CONTRIBUTING.md)
+- 🐛 [Report bugs](https://github.com/DevFullStack-Franklyn-R-Silva/flutter-terminal-helper/issues)
+- 💡 [Suggest features](https://github.com/DevFullStack-Franklyn-R-Silva/flutter-terminal-helper/issues)
+- ➕ [Add new commands](https://github.com/DevFullStack-Franklyn-R-Silva/flutter-terminal-helper/blob/main/CONTRIBUTING.md)
 - 📝 Improve documentation
 - ⭐ Star the repository
 
@@ -250,7 +250,7 @@ Contributions are **welcome and appreciated**! 🎉
 
 ```bash
 # Clone repository
-git clone https://github.com/your-username/flutter-terminal-helper.git
+git clone https://github.com/DevFullStack-Franklyn-R-Silva/flutter-terminal-helper.git
 cd flutter-terminal-helper
 
 # Install dependencies
@@ -284,7 +284,7 @@ See [CHANGELOG.md](CHANGELOG.md) for version history and release notes.
 
 None at the moment! 🎉
 
-Found a bug? [Report it here](https://github.com/your-username/flutter-terminal-helper/issues).
+Found a bug? [Report it here](https://github.com/DevFullStack-Franklyn-R-Silva/flutter-terminal-helper/issues).
 
 ## 🔒 Security
 
@@ -305,16 +305,16 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file
 
 ## 💬 Support & Feedback
 
-- 📫 [Report Issues](https://github.com/your-username/flutter-terminal-helper/issues)
-- 💡 [Feature Requests](https://github.com/your-username/flutter-terminal-helper/issues/new?template=feature_request.yml)
-- 🐛 [Bug Reports](https://github.com/your-username/flutter-terminal-helper/issues/new?template=bug_report.yml)
-- ⭐ [Star the repo](https://github.com/your-username/flutter-terminal-helper) if you find it useful!
+- 📫 [Report Issues](https://github.com/DevFullStack-Franklyn-R-Silva/flutter-terminal-helper/issues)
+- 💡 [Feature Requests](https://github.com/DevFullStack-Franklyn-R-Silva/flutter-terminal-helper/issues/new?template=feature_request.yml)
+- 🐛 [Bug Reports](https://github.com/DevFullStack-Franklyn-R-Silva/flutter-terminal-helper/issues/new?template=bug_report.yml)
+- ⭐ [Star the repo](https://github.com/DevFullStack-Franklyn-R-Silva/flutter-terminal-helper) if you find it useful!
 
 ## � Links
 
 - 🏪 VSCode Marketplace (Coming Soon)
-- 💻 [GitHub Repository](https://github.com/your-username/flutter-terminal-helper)
-- 📖 [Documentation](https://github.com/your-username/flutter-terminal-helper#readme)
+- 💻 [GitHub Repository](https://github.com/DevFullStack-Franklyn-R-Silva/flutter-terminal-helper)
+- 📖 [Documentation](https://github.com/DevFullStack-Franklyn-R-Silva/flutter-terminal-helper#readme)
 - 🤝 [Contributing Guide](CONTRIBUTING.md)
 
 ---
@@ -323,6 +323,6 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file
 
 **Made with ❤️ for the Flutter community**
 
-[⭐ Star](https://github.com/your-username/flutter-terminal-helper) · [🐛 Report Bug](https://github.com/your-username/flutter-terminal-helper/issues) · [💡 Request Feature](https://github.com/your-username/flutter-terminal-helper/issues)
+[⭐ Star](https://github.com/DevFullStack-Franklyn-R-Silva/flutter-terminal-helper) · [🐛 Report Bug](https://github.com/DevFullStack-Franklyn-R-Silva/flutter-terminal-helper/issues) · [💡 Request Feature](https://github.com/DevFullStack-Franklyn-R-Silva/flutter-terminal-helper/issues)
 
 </div>
